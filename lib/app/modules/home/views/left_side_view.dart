@@ -8,7 +8,7 @@ class LeftSideView extends GetView {
   Widget build(BuildContext context) {
     return SizedBox(
       width: 200,
-      child: Container(color: Colors.amber,
+      child: Container(color: Colors.green,
           child: Column(
             children: [
               WindowTitleBarBox(child: MoveWindow()),

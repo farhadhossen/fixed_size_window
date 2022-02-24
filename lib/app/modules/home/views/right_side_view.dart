@@ -13,7 +13,8 @@ class RightSideView extends GetView {
             gradient: LinearGradient(
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
-              colors: [Colors.amberAccent,Colors.amber],
+              colors: [Colors.greenAccent,Colors.green
+              ],
               stops: [0.0,1.0]
             ),
           ),
