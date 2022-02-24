@@ -22,7 +22,7 @@ class RightSideView extends GetView {
               WindowTitleBarBox(
                 child: Row(
                   children: [
-                    Expanded(child: Container(),),
+                    Expanded(child: MoveWindow(),),
                     //WindowTitleBarBox(child: MoveWindow()),
                     WindowButtons(),
 

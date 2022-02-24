@@ -1,3 +1,8 @@
+#include <bitsdojo_window_windows/bitsdojo_window_plugin.h>
+auto bdw = bitsdojo_window_configure(BDW_CUSTOM_FRAME );
+//| BDW_HIDE_ON_STARTUP
+//custom frame for hide app bar and hide on means when app start it will be hidden
+//thats why a blink not show to as
 #include <flutter/dart_project.h>
 #include <flutter/flutter_view_controller.h>
 #include <windows.h>
